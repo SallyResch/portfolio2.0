@@ -42,8 +42,11 @@ export default function Home() {
             </div>
           </div>
           <h3 className={styles.sectionText}>Selfmade projects</h3>
+          <div className={styles.selfProjects}>
+            <h3>Coming soon....</h3>
+          </div>
         </section>
-        <section id="contact" className={styles.contact}> 
+        <section className={styles.contact}> 
           <h1>Lets do projects together</h1>
           <p>Contact:</p>
           <div className={styles.contactLinks}>

@@ -4,6 +4,7 @@ import gitImage from "../public/github.png";
 import linkedImage from "../public/linkedin.png";
 import emailImage from "../public/email.png";
 
+
 export default function Home() {
   return (
     <div className={styles.page}>
@@ -41,9 +42,85 @@ export default function Home() {
               </a>
             </div>
           </div>
+         <div className={styles.projectTile}></div>
           <h3 className={styles.sectionText}>Selfmade projects</h3>
           <div className={styles.selfProjects}>
-            
+          <a className={styles.link} href="/htmlCss/AccessibilityQuizBuilding/index.html">
+          <iframe src="/htmlCss/AccessibilityQuizBuilding/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
+          <p>AccessibilityQuiz</p>
+          </a>
+          <a className={styles.link} href="/htmlCss/BalanceSheet/index.html">
+          <iframe src="/htmlCss/BalanceSheet/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
+          <p>BalanceSheet</p>
+          </a>
+          <a className={styles.link} href="/htmlCss/CafeMenuApp/index.html">
+          <iframe src="/htmlCss/CafeMenuApp/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
+          <p>CafeMenuPage</p>
+          </a>
+          <a className={styles.link} href="/htmlCss/CatPhotoApp/index.html">
+          <iframe src="/htmlCss/CatPhotoApp/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
+          <p>CatPhotoPage</p>
+          </a>
+          <a className={styles.link} href="/htmlCss/ColorMarkersApp/index.html">
+          <iframe src="/htmlCss/ColorMarkersApp/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
+          <p>ColorMarkers</p>
+          </a>
+          <a className={styles.link} href="/htmlCss/CssBoxModelRothko/index.html">
+          <iframe src="/htmlCss/CssBoxModelRothko/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
+          <p>CssBoxModelRothko</p>
+          </a>
+          <a className={styles.link} href="/htmlCss/CssCat/index.html">
+          <iframe src="/htmlCss/CssCat/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
+          <p>CssCat</p>
+          </a>
+          <a className={styles.link} href="/htmlCss/FerrisWheel/index.html">
+          <iframe src="/htmlCss/FerrisWheel/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
+          <p>FerrisWheel</p>
+          </a>
+          <a className={styles.link} href="/htmlCss/Magazine/index.html">
+          <iframe src="/htmlCss/Magazine/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
+          <p>Magazine</p>
+          </a>
+          <a className={styles.link} href="/htmlCss/NutritionLabel/index.html">
+          <iframe src="/htmlCss/NutritionLabel/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
+          <p>NutritionLabel</p>
+          </a>
+          <a className={styles.link} href="/htmlCss/Penguin/index.html">
+          <iframe src="/htmlCss/Penguin/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
+          <p>Penguin</p>
+          </a>
+          <a className={styles.link} href="/htmlCss/Photogallery/index.html">
+          <iframe src="/htmlCss/Photogallery/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
+          <p>Photogallery</p>
+          </a>
+          <a className={styles.link} href="/htmlCss/ProductLandingPage/index.html">
+          <iframe src="/htmlCss/ProductLandingPage/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
+          <p>ProductLandingPage</p>
+          </a>
+          <a className={styles.link} href="/htmlCss/RegistrationForm/index.html">
+          <iframe src="/htmlCss/RegistrationForm/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
+          <p>RegistrationForm</p>
+          </a>
+          <a className={styles.link} href="/htmlCss/ResponsivePiano/index.html">
+          <iframe src="/htmlCss/ResponsivePiano/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
+          <p>ResponsivePiano</p>
+          </a>
+          <a className={styles.link} href="/htmlCss/SkylineCssVariables/index.html">
+          <iframe src="/htmlCss/SkylineCssVariables/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
+          <p>SkylineCssVariables</p>
+          </a>
+          <a className={styles.link} href="/htmlCss/SurveyForm/index.html">
+          <iframe src="/htmlCss/SurveyForm/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
+          <p>SurveyForm</p>
+          </a>
+          <a className={styles.link} href="/htmlCss/TechnicalDoc/index.html">
+          <iframe src="/htmlCss/TechnicalDoc/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
+          <p>TechnicalDoc</p>
+          </a>
+          <a className={styles.link} href="/htmlCss/TributePage/index.html">
+          <iframe src="/htmlCss/TributePage/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
+          <p>TributePage</p>
+          </a>
           </div>
         </section>
         <section className={styles.contact}> 

@@ -210,6 +210,12 @@
   width: 445px;
   margin: 20px;
 }
+.link p{
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  padding: 20px;
+}
 .sectionText{
   text-align: center;
 }

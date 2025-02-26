@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #fcf6c9;
+}
+.cat-head{
+    width: 205px;
+    height: 180px;
+    border: 1px solid #bd7210;
+    border-radius: 46%;
+    background: linear-gradient(#ffa500 85%, #e59400 100%);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.cat-left-ear {
+position: absolute;
+top: -26px;
+left: -31px;
+border-left: 35px solid transparent;
+border-right: 35px solid transparent;
+border-bottom: 70px solid #ffa500;
+border-top-left-radius: 90px;
+border-top-right-radius: 10px;
+transform: rotate(-45deg);
+z-index: 1;
+}
+.cat-right-ear {
+position: absolute;
+top: -26px;
+left: 163px;
+border-left: 35px solid transparent;
+border-right: 35px solid transparent;
+border-bottom: 70px solid #ffa500;
+border-top-left-radius: 90px;
+border-top-right-radius: 10px;
+transform: rotate(45deg);
+z-index: 1;
+}
+.cat-left-inner-ear{
+position: absolute;
+top: 22px;
+left: -20px;
+border-right:20px solid transparent;
+border-left:20px solid transparent;
+border-bottom: 40px solid #e59400;
+border-bottom-right-radius: 40%;
+border-bottom-left-radius: 40%;
+border-top-left-radius: 90px;
+border-top-right-radius: 10px;
+}
+.cat-right-inner-ear{
+position: absolute;
+top: 22px;
+left: -20px;
+border-right:20px solid transparent;
+border-left:20px solid transparent;
+border-bottom: 40px solid #e59400;
+border-bottom-right-radius: 40%;
+border-bottom-left-radius: 40%;
+border-top-left-radius: 90px;
+border-top-right-radius: 10px;
+}
+.cat-left-eye{
+    width: 30px;
+    height: 40px;
+    background-color: #000;
+    position: absolute;
+    top: 54px;
+    left: 39px;
+    border-radius: 60%;
+    transform: rotate(10deg);
+}
+.cat-left-inner-eye{
+    width: 10px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 8px;
+    left: 2px;
+    border-radius: 60%;
+    transform: rotate(10deg);
+}
+.cat-right-eye{
+    width: 30px;
+    height: 40px;
+    background-color: #000;
+    position: absolute;
+    top: 54px;
+    left: 134px;
+    border-radius: 60%;
+    transform: rotate(-10deg);
+}
+.cat-right-inner-eye{
+    width: 10px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    top: 8px;
+    left: 18px;
+    border-radius: 60%;
+    transform: rotate(-10deg);
+}
+.cat-nose{
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid #442c2c;
+    position: absolute;
+    top: 108px;
+    left: 85px;
+    border-radius: 50% 0 50% 50%;
+    transform: rotate(180deg);
+}
+.cat-mouth div{
+    width: 30px;
+    height: 50px;
+    border: 2px solid #000;
+    border-color: black transparent transparent transparent;
+    border-radius: 190%/190px 150px 0 0;
+}
+.cat-mouth-line-left{
+    position: absolute;
+    top: 88px;
+    left: 74px;
+    transform: rotate(170deg);
+}
+.cat-mouth-line-right{
+    position: absolute;
+    top: 88px;
+    left: 91px;
+    transform: rotate(165deg);
+}
+.cat-whiskers-left div{
+    width: 40px;
+    height: 1px;
+    background-color: #000;
+}
+.cat-whiskers-right div{
+    width: 40px;
+    height: 1px;
+    background-color: #000;
+}
+.cat-whisker-left-top{
+    position: absolute;
+    top: 120px;
+    left: 52px;
+    transform: rotate(10deg);
+}
+.cat-whisker-left-middle{
+    position: absolute;
+    top: 127px;
+    left: 52px;
+    transform: rotate(3deg);
+}
+.cat-whisker-left-bottom{
+    position: absolute;
+    top: 134px;
+    left: 52px;
+    transform: rotate(-10deg);
+}
+.cat-whisker-right-top{
+    position: absolute;
+    top: 120px;
+    left: 109px;
+    transform: rotate(-10deg);
+}
+.cat-whisker-right-middle{
+    position: absolute;
+    top: 127px;
+    left: 109px;
+    transform: rotate(-3deg);
+}
+.cat-whisker-right-bottom{
+    position: absolute;
+    top: 134px;
+    left: 109px;
+    transform: rotate(10deg);
+}
+.cat-body {
+    width: 140px;
+    height: 180px;
+    background: linear-gradient(#ffa500 85%, #e59400 100%);
+    border: 1px solid #000;
+    border-radius: 40%;
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2; /* Kroppen ligger framför svansen */
+}
+
+.cat-tail {
+    width: 20px;
+    height: 100px;
+    background: linear-gradient(#ffa500 85%, #e59400 100%);
+    border: 1px solid #000;
+    border-radius: 50px;
+    position: absolute;
+    top: 230px;
+    left: 90%;
+    transform: translateX(-90%) rotate(30deg);
+    z-index: 1; /* Svansen ligger bakom kroppen */
+}
+
+.cat-paw-left, .cat-paw-right {
+    width: 40px;
+    height: 60px;
+    background: #ffa500;
+    border: 1px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 140px;
+    z-index: 2; /* Tassarna ligger framför kroppen */
+}
+
+.cat-paw-left {
+    left: -10px;
+}
+
+.cat-paw-right {
+    right: -10px;
+}

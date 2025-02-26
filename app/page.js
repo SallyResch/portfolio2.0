@@ -43,7 +43,7 @@ export default function Home() {
           </div>
           <h3 className={styles.sectionText}>Selfmade projects</h3>
           <div className={styles.selfProjects}>
-            <h3>Coming soon....</h3>
+            
           </div>
         </section>
         <section className={styles.contact}> 

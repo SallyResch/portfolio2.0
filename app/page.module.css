@@ -23,7 +23,7 @@
 .navbar {
   width: 100vw;
   height: 65px;
-  background-color: #b14c0d;
+  background-color: #2596be;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -169,7 +169,7 @@
 
 .projects {
   height: 100%;
-  background-color: #ab846d;
+  background-color: #9925be;
   margin: 0;
 }
 .projects h1 {
@@ -220,7 +220,7 @@
   text-align: center;
 }
 .contact{
-  background-color: #b14c0d;
+  background-color: #be4d25;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -245,7 +245,7 @@ align-items: center;
   grid-row-start: 3;
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: #49be25;
   color: rgb(255, 237, 222);
 }
 

@@ -192,8 +192,23 @@
   background-color: gray;
   padding: 20px;
 }
+.projects .projectTile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.selfMadeProjects{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
 .link{
   border-radius: 5%;
+  padding: 20px;
+  background-color: orange;
+  width: 445px;
+  margin: 20px;
 }
 .sectionText{
   text-align: center;

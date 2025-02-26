@@ -42,9 +42,9 @@ export default function Home() {
               </a>
             </div>
           </div>
-         <div className={styles.projectTile}></div>
+         <div className={styles.projectTile}>
           <h3 className={styles.sectionText}>Selfmade projects</h3>
-          <div className={styles.selfProjects}>
+          <div className={styles.selfMadeProjects}>
           <a className={styles.link} href="/htmlCss/AccessibilityQuizBuilding/index.html">
           <iframe src="/htmlCss/AccessibilityQuizBuilding/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
           <p>AccessibilityQuiz</p>
@@ -121,6 +121,7 @@ export default function Home() {
           <iframe src="/htmlCss/TributePage/index.html" height="300" width="400" title="Iframe Example" scrolling="no"></iframe>
           <p>TributePage</p>
           </a>
+          </div>
           </div>
         </section>
         <section className={styles.contact}> 

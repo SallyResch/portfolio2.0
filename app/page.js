@@ -124,7 +124,10 @@ export default function Home() {
           </div>
           </div>
         </section>
-        <section className={styles.contact}> 
+        
+      </main>
+      <footer className={styles.footer}>
+      <section className={styles.contact}> 
           <h1>Lets do projects together</h1>
           <p>Contact:</p>
           <div className={styles.contactLinks}>
@@ -142,8 +145,6 @@ export default function Home() {
             </a>
           </div>
         </section>
-      </main>
-      <footer className={styles.footer}>
         <p>© 2025 Sally Resch</p>
       </footer>
     </div>

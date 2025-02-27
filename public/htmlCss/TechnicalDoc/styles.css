@@ -1,31 +1,141 @@
-body {
-    width: 100%;
-    height: 100vh;
-    margin: 0;
-    font-family: Tahoma;
-    font-size: 16px;
+/* Grundläggande reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-/* Extra small devices (phones, 600px and down) */
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  font-family: Tahoma, sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* NAVBAR */
+nav {
+  position: fixed;
+  width: 100%;
+  height: 60px; /* Höjden på navbaren */
+  background: #333;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  z-index: 1000;
+}
+
+/* MAIN CONTENT */
+#main-doc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Se till att texten börjar direkt under navbaren */
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 80px; /* Justera baserat på navbarens höjd */
+}
+
+/* SECTIONS */
+.main-section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-section header {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* Listor */
+li {
+  margin-left: 20px;
+  list-style-type: square;
+}
+
+/* Code block */
+code {
+  display: block;
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: monospace;
+  margin: 10px 0;
+}
+
+/* RESPONSIV DESIGN */
+
+/* Mobil: Navbar överst */
+@media only screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+  
+  #main-doc {
+    width: 90%;
+    padding-top: 100px; /* Justering för navbar */
+  }
+}
+
+/* Större skärmar: Navbar som sidomeny */
+@media only screen and (min-width: 992px) {
+  body {
+    flex-direction: row;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  #main-doc {
+    margin-left: 270px; /* Lämna plats för navbaren */
+    width: calc(100% - 270px);
+    padding-top: 20px;
+  }
+}
+
+/* Bakgrundsfärger för olika skärmstorlekar */
 @media only screen and (max-width: 600px) {
-    body {background: red;}
-  }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-    body {background: green;}
-  }
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-    body {background: rgb(103, 103, 255);}
-  } 
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    body {background: orange;}
-  } 
-  
-  /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    body {background: pink;}
-  }
+  body { background: red; }
+}
+
+@media only screen and (min-width: 600px) {
+  body { background: green; }
+}
+
+@media only screen and (min-width: 768px) {
+  body { background: rgb(103, 103, 255); }
+}
+
+@media only screen and (min-width: 992px) {
+  body { background: orange; }
+}
+
+@media only screen and (min-width: 1200px) {
+  body { background: pink; }
+}

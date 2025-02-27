@@ -1,59 +1,117 @@
-body {
-width: 100%;
-height: 100vh;
-margin: 0;
-background-color: rgba(160, 105, 3, 0.582);
-color: #422100;
-font-family: Tahoma;
-font-size: 16px;
-}
-
-h1, p {
-margin: 1em auto;
-text-align: center;
-}
-
-form {
-width: 60vw;
-max-width: 500px;
-min-width: 300px;
-margin: 0 auto;
-padding-bottom: 2em;
-background-color: rgb(253, 196, 91);
-border-radius: 0.5rem;
-}
-label {
-display: block;
-margin: 0.5rem 0;
-}
-
-input,
-textarea,
-select {
-margin: 10px 0 0 0;
-width: 100%;
-min-height: 2em;
-}
-
-fieldset {
-border: none;
-padding: 2rem 0;
-border-bottom: 3px solid #e07000;
-}
-input[type="submit"] {
-display: block;
-width: 60%;
-margin: 1em auto;
-height: 2em;
-font-size: 1.1rem;
-background-color: #86530c;
-border-color: rgba(255, 183, 49, 0.952);
-border-radius: 0.5em;
-min-width: 300px;
-}
-.inline {
-width: unset;
-margin: 0 0.5em 0 0;
-vertical-align: middle;
-display: inline;
-}
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Bakgrund och grundläggande stil */
+  body {
+    width: 100%;
+    min-height: 100vh; /* Ändrat från height: 100vh → min-height: 100vh */
+    margin: 0;
+    background-color: rgba(160, 105, 3, 0.7);
+    color: #422100;
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Ändrat från center → flex-start */
+    padding: 20px 0;
+  }
+  
+  /* Titel och beskrivning */
+  h1, p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Formulär */
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin-top: 20px; /* Lagt till marginal så toppen inte skärs av */
+    padding: 2em;
+    background-color: rgb(253, 196, 91);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Fieldset */
+  fieldset {
+    border: none;
+    padding: 1.5rem 0;
+    border-bottom: 2px solid #e07000;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  
+  /* Labels */
+  label {
+    display: block;
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+  
+  /* Inputs, textarea och select */
+  input,
+  textarea,
+  select {
+    width: 100%;
+    min-height: 2.5em;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #86530c;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  /* Radioknappar & checkboxes */
+  .inline {
+    width: unset;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+  
+  label > .inline {
+    display: inline-block;
+    width: auto;
+  }
+  
+  /* Meddelande-textarea */
+  textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  /* Submit-knapp */
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    height: 3em;
+    font-size: 1.1rem;
+    background-color: #86530c;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1em;
+    transition: 0.3s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #a06f2a;
+  }
+  
+  /* Responsiv design */
+  @media (max-width: 600px) {
+    form {
+      width: 90%;
+      padding: 1.5em;
+    }
+  }
+  

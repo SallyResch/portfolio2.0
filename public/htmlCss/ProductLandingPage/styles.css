@@ -1,25 +1,30 @@
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
+/* Header */
 #header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    background: #333;
+    padding: 15px 30px;
+    background: #222;
     color: white;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 #header-img {
-    height: 50px;
+    height: 60px;
 }
 
 #nav-bar ul {
@@ -28,48 +33,88 @@
 }
 
 #nav-bar li {
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 #nav-bar a {
     color: white;
     text-decoration: none;
+    font-size: 16px;
     font-weight: bold;
+    transition: color 0.3s ease-in-out;
 }
 
+#nav-bar a:hover {
+    color: #28a745;
+}
+
+/* Sections */
 section {
-    padding: 60px 20px;
-    margin-top: 50px;
+    padding: 80px 20px;
+    margin-top: 70px;
+    text-align: center;
 }
 
+h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Product Demo */
+iframe {
+    border-radius: 10px;
+    margin-top: 15px;
+    width: 80%;
+    max-width: 700px;
+    height: 400px;
+}
+
+/* Subscribe Form */
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
+    margin-top: 20px;
 }
 
 input[type="email"] {
-    padding: 10px;
-    border: 1px solid #ccc;
-    width: 250px;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 280px;
+    font-size: 16px;
+}
+
+input[type="email"]:focus {
+    border-color: #28a745;
+    outline: none;
 }
 
 input[type="submit"] {
-    padding: 10px 20px;
+    padding: 12px 25px;
     background: #28a745;
     color: white;
+    font-size: 16px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
+    transition: background 0.3s ease-in-out;
 }
 
-#section1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+input[type="submit"]:hover {
+    background: #218838;
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
     #nav-bar ul {
         flex-direction: column;
@@ -78,5 +123,12 @@ input[type="submit"] {
 
     section {
         text-align: center;
+        padding: 60px 15px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
     }
 }
+

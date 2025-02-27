@@ -8,7 +8,15 @@
     font-family: Helvetica;
     margin: 0;
   }
-
+  #main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  #img-div{
+    text-align: center;
+  }
   #image{
     max-width: 100%;
     min-width: 250px;

@@ -10,6 +10,7 @@
   font-family: var(--font-geist-sans);
   margin: 0;
   padding: 0;
+  color:rgb(255, 237, 222);
 }
 .navbar {
   width: 100vw;

@@ -61,21 +61,21 @@ export default function Home() {
         <ProjectList title="Selfmade projects" projects={selfMadeProjects} />
       </section>
       </main>
-      <section className={styles.contact}> 
+      <section id="contact" className={styles.contact}> 
           <h3>Lets do projects together</h3>
           <p>Contact:</p>
           <div className={styles.contactLinks}>
             <a className={styles.profileLink} href="https://se.linkedin.com/in/sally-resch" target="_blank" rel="noopener noreferrer">
-                <p>LinkedIn</p>
                 <Image className={styles.linkImage} src={linkedImage} alt="LinkedInIcon" width={50} height={50} />
+                <p>LinkedIn</p>
             </a>
             <a className={styles.profileLink} href="mailto:sallyresch27@gmail.com">
-                <p>Mail</p>
                 <Image className={styles.linkImage} src={emailImage} alt="mailIcon" width={50} height={50} />
+                <p>Mail</p>
             </a>
             <a className={styles.profileLink} href="https://github.com/SallyResch" target="_blank" rel="noopener noreferrer">
-                <p>GitHub</p>
                 <Image className={styles.linkImage} src={gitImage} width={50} height={50} alt="githubIcon" />
+                <p>GitHub</p>
             </a>
           </div>
           <p>© 2025 Sally Resch</p>

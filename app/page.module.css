@@ -1,17 +1,12 @@
-.page{
-  
-}
 .navbar {
   display: flex;
-  justify-content:end;
+  justify-content:space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1rem 2rem 1rem 2rem;
   background: #2596be;
   color: white;
 }
-.navLinks{
-  padding-right: 50px;
-}
+
 .night{
   position: absolute;
   width: 50%;
@@ -133,4 +128,11 @@
   flex-direction: row;
   background: rgb(29, 3, 29);
   color: rgb(255, 237, 222);
+}
+
+.projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

@@ -33,11 +33,11 @@ export default function Home() {
             <h3 className={styles.sectionText}>Work/Internship projects</h3>
             <div className={styles.workProjects}>
               <a className={styles.link} href="https://www.heyey.se" target="_blank" rel="noopener noreferrer">
-                <iframe src="https://www.heyey.se" height="300" width="320" title="Iframe Example" scrolling="no"></iframe>
+                <iframe className={styles.webFrame} src="https://www.heyey.se"  title="Iframe Example" scrolling="no"></iframe>
                 <p>HEYEY</p> 
               </a>
               <a className={styles.link} href="https://www.elevateyourself.se" target="_blank" rel="noopener noreferrer">
-                <iframe src="https://www.elevateyourself.se" height="300" width="320" title="Iframe Example" scrolling="no"></iframe>
+                <iframe className={styles.webFrame} src="https://www.elevateyourself.se" title="Iframe Example" scrolling="no"></iframe>
                 <p>Elevateyourself AB</p> 
               </a>
             </div>

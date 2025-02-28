@@ -62,7 +62,7 @@ export default function Home() {
       </section>
       </main>
       <section className={styles.contact}> 
-          <h1>Lets do projects together</h1>
+          <h3>Lets do projects together</h3>
           <p>Contact:</p>
           <div className={styles.contactLinks}>
             <a className={styles.profileLink} href="https://se.linkedin.com/in/sally-resch" target="_blank" rel="noopener noreferrer">

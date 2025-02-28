@@ -139,3 +139,13 @@
   padding: 10px;
   border-radius: 5px;
 }
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #2596be;
+  color: whitesmoke;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

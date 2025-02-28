@@ -132,6 +132,10 @@
 
 .projects{
   text-align: center;
+  color: whitesmoke;
+  background: rgb(3, 4, 29);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 .projectTile{
   display: flex;
@@ -144,4 +148,9 @@
   padding: 10px;
   border-radius: 5px;
   margin: 1rem;
+}
+.link p{
+  background-color: rgb(21, 15, 15);
+  padding: 10px;
+  border-radius: 5px;
 }

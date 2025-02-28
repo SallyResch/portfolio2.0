@@ -6,7 +6,7 @@
   justify-content:end;
   align-items: center;
   padding: 1rem;
-  background: #333;
+  background: #2596be;
   color: white;
 }
 .navLinks{
@@ -15,7 +15,7 @@
 .night{
   position: absolute;
   width: 50%;
-  height: 50%;
+  height: 20%;
   transform: rotateZ(35deg);
 }
 .star {
@@ -123,4 +123,14 @@
 
 .star:nth-child(5)::before, .star:nth-child(5)::after {
   animation-delay: 1.8s;
+}
+
+.welcomeSection{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background: rgb(29, 3, 29);
+  color: rgb(255, 237, 222);
 }

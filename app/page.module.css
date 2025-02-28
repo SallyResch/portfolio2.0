@@ -3,11 +3,14 @@
 }
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content:end;
   align-items: center;
   padding: 1rem;
   background: #333;
   color: white;
+}
+.navLinks{
+  padding-right: 50px;
 }
 .night{
   position: absolute;

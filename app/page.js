@@ -63,7 +63,7 @@ export default function Home() {
       </main>
       <section id="contact" className={styles.contact}> 
           <h3>Lets do projects together</h3>
-          <p>Contact:</p>
+          <p>Contact Me @:</p>
           <div className={styles.contactLinks}>
             <a className={styles.profileLink} href="https://se.linkedin.com/in/sally-resch" target="_blank" rel="noopener noreferrer">
                 <Image className={styles.linkImage} src={linkedImage} alt="LinkedInIcon" width={50} height={50} />

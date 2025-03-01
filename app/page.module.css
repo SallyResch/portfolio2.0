@@ -151,6 +151,9 @@
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.contact p{
+  padding-top: 1rem;
+}
 .profileLink{
   background-color: antiquewhite;
   color: black;

@@ -40,7 +40,7 @@ export default function Home() {
     <div className={styles.page}>
       <Navbar />
       <main className={styles.main}>
-        <section id="welcomeSection" className={styles.welcomeSection}>
+        <section id="about" className={styles.welcomeSection}>
           <div className={styles.night}>
             <div className={styles.star}></div>
             <div className={styles.star}></div>
@@ -49,8 +49,8 @@ export default function Home() {
             <div className={styles.star}></div>
           </div>
           <div className={styles.about}>
-            <h1>Hi, I am Sally</h1>
-            <p>a software developer</p>
+            <h1>Sally Resch</h1>
+            <h3>a software developer at your service</h3>
           </div>
         </section>
         <section id="projects" className={styles.projects}>

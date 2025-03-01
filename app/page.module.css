@@ -1,3 +1,4 @@
+
 .night{
   position: absolute;
   width: 50%;
@@ -120,10 +121,14 @@
   flex-direction: column;
 }
 .link{
-  background-color: #e9cfb3;
+  background-color: #ebbc8a;
   padding: 10px;
   border-radius: 5px;
   margin: 1rem;
+}
+.link:hover{
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }
 .link p{
   background-color: rgb(21, 15, 15);

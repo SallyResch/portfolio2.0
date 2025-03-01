@@ -4,6 +4,8 @@ import gitImage from "../public/github.png";
 import linkedImage from "../public/linkedin.png";
 import emailImage from "../public/email.png";
 import ProjectList from "../components/ProjectList";
+import Link from "next/link";
+import Navbar from "../components/Navbar/Navbar";
 
 const workProjects = [
   { name: "HEYEY", url: "https://www.heyey.se" },
@@ -36,11 +38,7 @@ const selfMadeProjects = [
 export default function Home() {
   return (
     <div className={styles.page}>
-      <nav className={styles.navbar}>
-        <a className={styles.navLinks} href="#welcomeSection"><h4>About</h4></a>
-        <a className={styles.navLinks} href="#projects"><h4>Work</h4></a>
-        <a className={styles.navLinks} href="#contact"><h4>Contact</h4></a>
-      </nav>
+      <Navbar />
       <main className={styles.main}>
         <section id="welcomeSection" className={styles.welcomeSection}>
           <div className={styles.night}>

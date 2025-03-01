@@ -131,6 +131,9 @@
   transition: transform 0.3s ease-in-out;
   box-shadow: black 0px 0px 8px;
 }
+.webFrame{
+  height: 250px;
+}
 .link p{
   background-color: rgb(21, 15, 15);
   padding: 10px;

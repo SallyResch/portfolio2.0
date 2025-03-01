@@ -21,23 +21,20 @@ export default function Navbar() {
       </Link>
     {/* Desktop menu */}
       <div className={styles.menu}>
-        <button
-          variant="ghost"
-          onClick={() => scrollToSection("about")}
+        <button className={styles.navLinks}
+          onClick={() => scrollToSection("#about")}
         >
-          About
+         <h3>About</h3>
         </button>
-        <button
-          variant="ghost"
-          onClick={() => scrollToSection("work")}
+        <button className={styles.navLinks}
+          onClick={() => scrollToSection("#work")}
         >
-          Work
+         <h3>Work</h3> 
         </button>
-        <button
-          variant="ghost"
-          onClick={() => scrollToSection("contact")}
+        <button className={styles.navLinks}
+          onClick={() => scrollToSection("#contact")}
         >
-          Contact
+         <h3>Contact</h3> 
         </button>
       </div>
     </nav>

@@ -37,9 +37,9 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <nav className={styles.navbar}>
-        <a className={styles.navLinks} href="#welcomeSection">About</a>
-        <a className={styles.navLinks} href="#projects">Work</a>
-        <a className={styles.navLinks} href="#contact">Contact</a>
+        <a className={styles.navLinks} href="#welcomeSection"><h4>About</h4></a>
+        <a className={styles.navLinks} href="#projects"><h4>Work</h4></a>
+        <a className={styles.navLinks} href="#contact"><h4>Contact</h4></a>
       </nav>
       <main className={styles.main}>
         <section id="welcomeSection" className={styles.welcomeSection}>
@@ -63,7 +63,7 @@ export default function Home() {
       </main>
       <section id="contact" className={styles.contact}> 
           <h3>Lets do projects together</h3>
-          <p>Contact:</p>
+          <p>Contact Me @:</p>
           <div className={styles.contactLinks}>
             <a className={styles.profileLink} href="https://se.linkedin.com/in/sally-resch" target="_blank" rel="noopener noreferrer">
                 <Image className={styles.linkImage} src={linkedImage} alt="LinkedInIcon" width={50} height={50} />

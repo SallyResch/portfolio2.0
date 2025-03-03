@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background: #eb5b5b;
+    background: #5bc0eb;
     color: white;
     position: fixed;
     top: 0;
@@ -21,6 +21,6 @@
 }
 .navLinks:hover{
     background: whitesmoke;
-    color: #eb5b5b;
+    color: #5bc0eb;
     border-radius: 10px;
 }

@@ -16,9 +16,6 @@ export default function Navbar() {
 
   return (
     <nav className={styles.navbar}>
-      <Link href="/" className={styles.logo}>
-        SR
-      </Link>
       {/* Desktop menu */}
       <div className={styles.menu}>
         <button className={styles.navLinks}

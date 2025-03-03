@@ -50,7 +50,7 @@ export default function Home() {
           </div>
           <div className={styles.about}>
             <h1>Sally Resch</h1>
-            <h3>a software developer at your service</h3>
+            <h3>a software developer<br/> at your service</h3>
           </div>
         </section>
         <section id="projects" className={styles.projects}>

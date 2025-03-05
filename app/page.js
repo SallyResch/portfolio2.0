@@ -4,7 +4,6 @@ import gitImage from "../public/github.png";
 import linkedImage from "../public/linkedin.png";
 import emailImage from "../public/email.png";
 import ProjectList from "../components/ProjectList";
-import Link from "next/link";
 import Navbar from "../components/Navbar/Navbar";
 
 const workProjects = [
@@ -32,6 +31,7 @@ const selfMadeProjects = [
   { name: "SurveyForm", url: "/htmlCss/SurveyForm/index.html" },
   { name: "TechnicalDoc", url: "/htmlCss/TechnicalDoc/index.html" },
   { name: "TributePage", url: "/htmlCss/TributePage/index.html" },
+  { name: "Background Colorchanger", url: "/javaScript/BackgroundColorChanger/index.html"},
 ];
 
 

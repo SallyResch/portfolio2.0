@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #5bc0eb;
+    background: orange;
     color: white;
     position: fixed;
     top: 0;
@@ -21,6 +21,6 @@
 }
 .navLinks:hover{
     background: whitesmoke;
-    color: #5bc0eb;
+    color: orange;
     border-radius: 10px;
 }

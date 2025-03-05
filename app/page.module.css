@@ -1,4 +1,6 @@
-
+.page{
+  color: rgb(255, 237, 222);
+}
 .night{
   position: absolute;
   width: 50%;
@@ -100,13 +102,12 @@
   animation-delay: 1.8s;
 }
 .welcomeSection{
-  height: 100vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   background: #211A1E;
-  color: rgb(255, 237, 222);
 }
 .about{
   text-align: center;
@@ -116,8 +117,7 @@
 }
 .projects{
   text-align: center;
-  background: #c3423f;
-  padding-top: 2rem;
+  background: #211A1E;
   padding-bottom: 2rem;
 }
 .projects h1{
@@ -130,7 +130,7 @@
   flex-direction: column;
 }
 .link{
-  background-color: #ebbc8a;
+  background-color: orange;
   padding: 10px;
   border-radius: 5px;
   margin: 1rem;
@@ -138,7 +138,7 @@
 .link:hover{
   transform: scale(1.1);
   transition: transform 0.3s ease-in-out;
-  box-shadow: black 0px 0px 8px;
+  box-shadow: orangered 0px 0px 8px;
 }
 .webFrame{
   height: 250px;

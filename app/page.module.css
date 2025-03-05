@@ -155,7 +155,7 @@
   align-items: center;
   flex-direction: column;
   background: #211A1E;
-  color: whitesmoke;
+  color: orange;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -163,7 +163,7 @@
   padding-top: 1rem;
 }
 .profileLink{
-  background-color: antiquewhite;
+  background-color: orange;
   color: black;
   border-radius: 5px;
   padding: 10px;

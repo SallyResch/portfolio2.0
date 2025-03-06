@@ -4,7 +4,6 @@ import gitImage from "../public/github.png";
 import linkedImage from "../public/linkedin.png";
 import emailImage from "../public/email.png";
 import ProjectList from "../components/ProjectList";
-import Navbar from "../components/Navbar/Navbar";
 
 const workProjects = [
   { name: "HEYEY", url: "https://www.heyey.se" },
@@ -44,7 +43,6 @@ const javaScript = [
 export default function Home() {
   return (
     <div className={styles.page}>
-      <Navbar />
       <main className={styles.main}>
         <section id="about" className={styles.welcomeSection}>
           <div className={styles.night}>

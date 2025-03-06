@@ -31,9 +31,15 @@ const selfMadeProjects = [
   { name: "SurveyForm", url: "/htmlCss/SurveyForm/index.html" },
   { name: "TechnicalDoc", url: "/htmlCss/TechnicalDoc/index.html" },
   { name: "TributePage", url: "/htmlCss/TributePage/index.html" },
-  { name: "Background Colorchanger", url: "/javaScript/BackgroundColorChanger/index.html"},
+  
 ];
+const javaScript = [
+  { name: "Background Colorchanger", url: "/javaScript/BackgroundColorChanger/index.html"},
+  { name: "CalorieCounter", url: "/javaScript/CalorieCounter/index.html"},
+  { name: "GradeHelp", url: "/javaScript/GradeHelp/index.html"},
+  { name: "PyramidBuilding", url: "/javaScript/PyramidBuilding/index.html"},
 
+];
 
 export default function Home() {
   return (
@@ -56,7 +62,8 @@ export default function Home() {
         <section id="projects" className={styles.projects}>
         <h1>Projects</h1>
         <ProjectList title="Work/Internship projects" projects={workProjects} />
-        <ProjectList title="Selfmade projects" projects={selfMadeProjects} />
+        <ProjectList title="HTML CSS projects" projects={selfMadeProjects} />
+        <ProjectList title="JavaScript projects" projects={javaScript} />
       </section>
       </main>
       <section id="contact" className={styles.contact}> 

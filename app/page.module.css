@@ -160,6 +160,9 @@
   opacity: 0; /* Dold från början */
   transition: opacity 0.3s ease-in-out;
 }
+.backCard p{
+  margin: 1rem;
+}
 /* När man hovrar på länken: göm iframen, visa backCard */
 .link:hover .webFrame {
   opacity: 0;

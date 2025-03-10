@@ -1,4 +1,4 @@
-import styles from "../app/page.module.css";
+import styles from "../../app/page.module.css";
 
 const ProjectList = ({ title, projects }) => {
   return (
@@ -19,6 +19,10 @@ const ProjectList = ({ title, projects }) => {
               title={project.name}
               scrolling="no"
             ></iframe>
+            <div className={styles.backCard}>
+              <p>{project.description}</p>
+              <p>{project.name}</p>
+            </div>
             <p>{project.name}</p>
           </a>
         ))}

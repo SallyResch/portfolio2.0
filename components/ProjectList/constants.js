@@ -4,8 +4,11 @@ export const workProjects = [
   ];
   
   export const selfMadeProjects = [
-    { name: "AccessibilityQuiz", url: "/htmlCss/AccessibilityQuizBuilding/index.html" },
-    { name: "BalanceSheet", url: "/htmlCss/BalanceSheet/index.html" },
+    { name: "AccessibilityQuiz", 
+      url: "/htmlCss/AccessibilityQuizBuilding/index.html",
+      description:"The Accessibility Quiz is an interactive and fully responsive web-based quiz designed to test users on HTML and CSS accessibility principles. The project follows best practices for accessibility (a11y), ensuring it is usable by screen readers and keyboard users."
+    },
+    { name: "BalanceSheet",url: "/htmlCss/BalanceSheet/index.html", description:"The Balance Sheet project is a structured, accessible, and responsive financial statement that displays a company's Assets, Liabilities, and Net Worth over multiple years. This project provides a clear and interactive presentation of financial data using HTML and CSS, ensuring usability and accessibility for all users." },
     { name: "CafeMenuPage", url: "/htmlCss/CafeMenuApp/index.html" },
     { name: "CatPhotoPage", url: "/htmlCss/CatPhotoApp/index.html" },
     { name: "ColorMarkers", url: "/htmlCss/ColorMarkersApp/index.html" },

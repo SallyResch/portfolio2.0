@@ -1,6 +1,6 @@
 export const workProjects = [
     { name: "HEYEY", url: "https://www.heyey.se", description: "A Next.js project" },
-    { name: "Elevateyourself AB", url: "https://www.elevateyourself.se" },
+    { name: "Elevateyourself AB", url: "https://www.elevateyourself.se", description: "A Next.js project"},
   ];
   
   export const selfMadeProjects = [
@@ -14,67 +14,67 @@ export const workProjects = [
     },
     { name: "CafeMenuPage", 
       url: "/htmlCss/CafeMenuApp/index.html",
-      description: "The Cafe Menu Page is a responsive web-based project that displays a cafe's menu items using HTML and CSS. The project includes a variety of menu items, such as beverages, desserts and is designed to be accessible and user-friendly on all devices." 
+      description: "Learned CSS by designing a menu page for a cafe webpage." 
     },
     { name: "CatPhotoPage", 
       url: "/htmlCss/CatPhotoApp/index.html",
-      description: "The Cat Photo Page is a responsive web-based project that displays a collection of cat photos using HTML and CSS. The project includes a variety of cat photos and is designed to be accessible and user-friendly on all devices."
+      description: "Learned the most common HTML tags by building my own cat photo app."
     },
     { name: "ColorMarkers", 
       url: "/htmlCss/ColorMarkersApp/index.html",
-      description: "The Color Markers project is an interactive and responsive web-based project that displays color markers using HTML and CSS. The project includes a variety of color markers and is designed to be accessible and user-friendly on all devices."
+      description: "Built a set of colored markers and in that way learned CSS Colors. Learned different ways to set color values and how to pair colors with each other."
     },
     { name: "CssBoxModelRothko", 
       url: "/htmlCss/CssBoxModelRothko/index.html",
-      description: "The CSS Box Model Rothko project is a responsive web-based project that displays a collection of color blocks using HTML and CSS. The project is inspired by the artist Mark Rothko and is designed to be accessible and user-friendly on all devices."
+      description: "Learned the CSS Boxmodel by building a Rothko painting."
     },
     { name: "CssCat", 
       url: "/htmlCss/CssCat/index.html",
-      description: "The CSS Cat project is a responsive web-based project that displays a cat using HTML and CSS. The project includes a variety of cat images and is designed to be accessible and user-friendly on all devices."
+      description: "Learned Intermediate CSS by building a Cat Painting. Learned absolute positioning, z-index property and the transform property."
     },
     { name: "FerrisWheel", 
       url: "/htmlCss/FerrisWheel/index.html",
-      description: "The Ferris Wheel project is an interactive and responsive web-based project that displays a Ferris wheel using HTML and CSS where keyframes and animations are used."
+      description: "Learned CSS Animations by Building a Ferris Wheel. Animated elements, transform and adjust speed of animations."
     },
     { name: "Magazine", 
       url: "/htmlCss/Magazine/index.html",
-      description: "The Magazine project is a responsive web-based project that displays a magazine layout using HTML and CSS. The project includes a variety of articles and is designed to be accessible and user-friendly on all devices."
+      description: "Built a magazine to learn CSS Grid with concepts like grid rows and grid columns."
     },
     { name: "NutritionLabel",
       url: "/htmlCss/NutritionLabel/index.html",
-      description: "The Nutrition Label project is a responsive web-based project that displays a nutrition label using HTML and CSS. The project includes a variety of nutrition facts and is designed to be accessible and user-friendly on all devices."
+      description: "Learned Typography by building a Nutrition Label. How to use different font properties and how to style text with CSS."
     },
     { name: "Penguin", 
       url: "/htmlCss/Penguin/index.html",
-      description: "The Penguin project is a responsive web-based project that displays a penguin using HTML and CSS. The project is designed to be accessible and user-friendly on all devices."
+      description: "Learned CSS Transform by positioning and resize parts of the penguin."
     },
     { name: "Photogallery", 
       url: "/htmlCss/Photogallery/index.html",
-      description: "The Photo Gallery project is a responsive web-based project that displays a collection of photos using HTML and CSS. The project is designed to be accessible and user-friendly on all devices."
+      description: "Learned the CSS flexbox by building a photo gallery. Learned how to use flexbox to create a responsive layout."
     },
     { name: "ProductLandingPage", 
       url: "/htmlCss/ProductLandingPage/index.html",
-      description: "The Product Landing Page project is a responsive web-based project that displays a product landing page using HTML and CSS. The project is designed to be accessible and user-friendly on all devices."
+      description: "A Certification Project on FreeCodeCamp. Built a product landing page with HTML and CSS to promote a product."
     },
     { name: "RegistrationForm", 
       url: "/htmlCss/RegistrationForm/index.html",
-      description: "The Registration Form project is a responsive web-based project that displays a registration form using HTML and CSS. The project is designed to be accessible and user-friendly on all devices."
+      description: "Learned HTML forms by building a signup page. Learned how to control what types of data people can type into the form element, and some new CSS tools for styling my page."
     },
     { name: "ResponsivePiano", 
       url: "/htmlCss/ResponsivePiano/index.html",
-      description: "The Responsive Piano project is a responsive web-based project that displays a piano using HTML and CSS. The project is designed to be accessible and user-friendly on all devices."
+      description: "Learned Responsive Web Design by building a Piano. Learned how to use media queries and pseudo selectors to create a responsive layout."
     },
     { name: "SkylineCssVariables", 
       url: "/htmlCss/SkylineCssVariables/index.html",
-      description: "The Skyline CSS Variables project is a responsive web-based project that displays a skyline using HTML and CSS variables. The project is designed to be accessible and user-friendly on all devices."
+      description: "Learned CSS Variables by building a Skyline. Learned how to use CSS variables to store and reuse values throughout my style sheet."
     },
     { name: "SurveyForm", 
       url: "/htmlCss/SurveyForm/index.html",
-      description: "The Survey Form project is a responsive web-based project that displays a survey form using HTML and CSS. The project is designed to be accessible and user-friendly on all devices."
+      description: "A Certification Project on FreeCodeCamp. Built a survey form with HTML and CSS to collect data from users."
     },
     { name: "TechnicalDoc", 
       url: "/htmlCss/TechnicalDoc/index.html",
-      description: "The Technical Documentation project is a responsive web-based project that displays technical documentation using HTML and CSS. The project is designed to be accessible and user-friendly on all devices."
+      description: "A Certification Project. The Project is a responsive web-based project that displays technical documentation using HTML and CSS. The project is designed to be accessible and user-friendly on all devices."
     },
     { name: "TributePage", 
       url: "/htmlCss/TributePage/index.html",
@@ -94,6 +94,10 @@ export const workProjects = [
     { name: "GradeHelp", 
       url: "/javaScript/GradeHelp/index.html",
       description: "The Grade Help project is an interactive web-based project that helps users calculate their grades using JavaScript. The project is designed to be user-friendly and accessible."
+    },
+    { name: "MusicPlayer", 
+      url: "/javaScript/MusicPlayer/index.html",
+      description: "I coded a basic MP3 player using HTML, CSS, and JavaScript. The project covers fundamental concepts such as handling audio playback, managing a playlist, implementing play, pause, next, previous, and shuffle functionalities. I even learned how to dynamically update your user interface based on the current song."
     },
     { name: "PyramidBuilding", 
       url: "/javaScript/PyramidBuilding/index.html",

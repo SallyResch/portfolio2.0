@@ -1,6 +1,6 @@
 export const workProjects = [
-    { name: "HEYEY", url: "https://www.heyey.se", description: "A Next.js project" },
-    { name: "Elevateyourself AB", url: "https://www.elevateyourself.se", description: "A Next.js project"},
+    { name: "HEYEY", url: "https://www.heyey.se"},
+    { name: "Elevateyourself AB", url: "https://www.elevateyourself.se"},
   ];
   
   export const selfMadeProjects = [

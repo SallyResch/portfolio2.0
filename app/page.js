@@ -5,19 +5,14 @@ import linkedImage from "../public/linkedin.png";
 import emailImage from "../public/email.png";
 import ProjectList from "../components/ProjectList/ProjectList";
 import { workProjects, selfMadeProjects, javaScript } from "../components/ProjectList/constants";
+import Stars from "@/components/Animations/Stars";
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
         <section id="about" className={styles.welcomeSection}>
-          <div className={styles.night}>
-            <div className={styles.star}></div>
-            <div className={styles.star}></div>
-            <div className={styles.star}></div>
-            <div className={styles.star}></div>
-            <div className={styles.star}></div>
-          </div>
+          <Stars />
           <div className={styles.about}>
             <h1>Sally Resch</h1>
             <h3>a software developer<br/> at your service</h3>

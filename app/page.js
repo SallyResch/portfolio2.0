@@ -6,16 +6,19 @@ import emailImage from "../public/email.png";
 import ProjectList from "../components/ProjectList/ProjectList";
 import { workProjects, selfMadeProjects, javaScript } from "../components/ProjectList/constants";
 import Stars from "@/components/Animations/Stars";
+import { Vortex } from "@/components/ui/vortex";
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
         <section id="about" className={styles.welcomeSection}>
-          <Stars />
+          
           <div className={styles.about}>
+            <Vortex>
             <h1>Sally Resch</h1>
             <h3>a software developer<br/> at your service</h3>
+            </Vortex>
           </div>
         </section>
         <section id="projects" className={styles.projects}>

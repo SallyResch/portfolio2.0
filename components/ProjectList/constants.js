@@ -106,4 +106,8 @@ export const javaScript = [
     url: "/javaScript/PyramidBuilding/index.html",
     description: "The Pyramid Building project is an interactive web-based project that allows users to build a pyramid using JavaScript. The project is designed to be user-friendly and accessible."
   },
+  { name: "RolePlayingGame", 
+    url: "/javaScript/RolePlayingGame/index.html",
+    description: "The RolePlayingGame project is an interactive web-based project that allows users to build a pyramid using JavaScript. The project is designed to be user-friendly and accessible."
+  },
 ];

@@ -4,7 +4,7 @@ import gitImage from "../public/github.png";
 import linkedImage from "../public/linkedin.png";
 import emailImage from "../public/email.png";
 import ProjectList from "../components/ProjectList/ProjectList";
-import { workProjects, selfMadeProjects, javaScript, ongoingProjects } from "../components/ProjectList/constants";
+import { workProjects, selfMadeProjects, javaScript, ongoingProjects, typeScript } from "../components/ProjectList/constants";
 import Stars from "@/components/Animations/Stars";
 
 export default function Home() {
@@ -22,6 +22,7 @@ export default function Home() {
         <h1>Projects</h1>
         <ProjectList title="Ongoing projects" projects={ongoingProjects} />
         <ProjectList title="Work/Internship projects" projects={workProjects} />
+        <ProjectList title="TypeScript projects" projects={typeScript} />
         <ProjectList title="HTML CSS projects" projects={selfMadeProjects} />
         <ProjectList title="JavaScript projects" projects={javaScript} />
       </section>

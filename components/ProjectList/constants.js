@@ -111,3 +111,11 @@ export const javaScript = [
     description: "The RolePlayingGame project is an interactive web-based project that allows users to build a pyramid using JavaScript. The project is designed to be user-friendly and accessible."
   },
 ];
+
+export const typeScript = [
+  {name: "Dungeon Quiz",
+    url: "https://v0-character-based-dungeon-game.vercel.app/",
+    description: "A educational game that teaches you basic knowledge that a person should know from school"
+  }
+
+];

@@ -17,13 +17,6 @@ export default function Home() {
             <h3>a software developer<br/> at your service</h3>
           </div>
         </section>
-        <section id="projects" className={styles.projects}>
-        <h1>Projects</h1>
-        <ProjectList title="Work/Internship projects" projects={workProjects} />
-        <ProjectList title="TypeScript projects" projects={typeScript} />
-        <ProjectList title="HTML CSS projects" projects={selfMadeProjects} />
-        <ProjectList title="JavaScript projects" projects={javaScript} />
-      </section>
       </main>
       <section id="contact" className={styles.contact}> 
           <h3>Lets do projects together</h3>

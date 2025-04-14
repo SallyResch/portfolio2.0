@@ -3,9 +3,6 @@ import styles from "./page.module.css";
 import gitImage from "../public/github.png";
 import linkedImage from "../public/linkedin.png";
 import emailImage from "../public/email.png";
-import ProjectList from "../components/ProjectList/ProjectList";
-import { workProjects, selfMadeProjects, javaScript, ongoingProjects, typeScript } from "../components/ProjectList/constants";
-import Stars from "@/components/Animations/Stars";
 
 export default function Home() {
   return (

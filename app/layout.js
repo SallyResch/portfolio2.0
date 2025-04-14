@@ -2,7 +2,6 @@ import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Navbar from "@/components/Navbar/Navbar";
-import Loading from "./loading";
 import {Quicksand} from "next/font/google";
 
 export const metadata = {
@@ -19,7 +18,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={quicksand.className}>
-      <Loading/>
         <main>
           <Navbar/>
           {children}

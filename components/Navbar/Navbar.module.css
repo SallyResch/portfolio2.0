@@ -4,11 +4,6 @@
     align-items: center;
     background: orange;
     color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
   }
 .logo{
     border: 2px solid white;
@@ -19,9 +14,18 @@
     border: none;
     background: none;
     color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 .navLinks:hover{
     background: whitesmoke;
     color: orange;
     border-radius: 10px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
 }

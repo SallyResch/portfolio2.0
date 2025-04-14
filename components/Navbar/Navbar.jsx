@@ -16,24 +16,17 @@ export default function Navbar() {
 
   return (
     <nav className={styles.navbar}>
-      {/* Desktop menu */}
-      <div className={styles.menu}>
-        <button className={styles.navLinks}
-          onClick={() => scrollToSection("about")}
-        >
-         <h3>About</h3>
-        </button>
-        <button className={styles.navLinks}
-          onClick={() => scrollToSection("projects")}
-        >
-         <h3>Work</h3> 
-        </button>
-        <button className={styles.navLinks}
-          onClick={() => scrollToSection("contact")}
-        >
-         <h3>Contact</h3> 
-        </button>
-      </div>
+        <div className={styles.menu}>
+          <Link href="#about" className={styles.navLinks} onClick={() => scrollToSection("about")}>
+            About
+          </Link>
+          <Link href="/projects" className={styles.navLinks}>
+            Work
+          </Link>
+          <Link href="#contact" className={styles.navLinks} onClick={() => scrollToSection("contact")}>
+            Contact
+          </Link>
+        </div>
     </nav>
-  )
+  );
 }

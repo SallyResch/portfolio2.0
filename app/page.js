@@ -20,7 +20,6 @@ export default function Home() {
         </section>
         <section id="projects" className={styles.projects}>
         <h1>Projects</h1>
-        <ProjectList title="Ongoing projects" projects={ongoingProjects} />
         <ProjectList title="Work/Internship projects" projects={workProjects} />
         <ProjectList title="TypeScript projects" projects={typeScript} />
         <ProjectList title="HTML CSS projects" projects={selfMadeProjects} />

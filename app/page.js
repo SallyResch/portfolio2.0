@@ -12,7 +12,6 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <section id="about" className={styles.welcomeSection}>
-          <Stars />
           <div className={styles.about}>
             <h1>Sally Resch</h1>
             <h3>a software developer<br/> at your service</h3>

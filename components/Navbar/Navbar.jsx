@@ -17,13 +17,16 @@ export default function Navbar() {
   return (
     <nav className={styles.navbar}>
         <div className={styles.menu}>
-          <Link href="#about" className={styles.navLinks} onClick={() => scrollToSection("about")}>
+        <Link href="/" className={styles.navLinks}>
+            Home
+          </Link>
+        <Link href="/projects" className={styles.navLinks}>
+            Projects
+          </Link>
+          <Link href="/about" className={styles.navLinks}>
             About
           </Link>
-          <Link href="/projects" className={styles.navLinks}>
-            Work
-          </Link>
-          <Link href="#contact" className={styles.navLinks} onClick={() => scrollToSection("contact")}>
+          <Link href="/contact" className={styles.navLinks}>
             Contact
           </Link>
         </div>

@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import gitImage from "../public/github.png";
 import linkedImage from "../public/linkedin.png";
 import emailImage from "../public/email.png";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -11,8 +12,13 @@ export default function Home() {
         <section id="about" className={styles.welcomeSection}>
           <div className={styles.about}>
             <h1>Sally Resch</h1>
-            <h3>a software developer<br/> at your service</h3>
+            <h2>a software developer<br/> at your service</h2>
+              <div className={styles.navButtons}>
+              <Link className={styles.link} href="/projects">View my work</Link>
+              <Link className={styles.link} href="/contact">Get in touch</Link>
+              </div>
           </div>
+
         </section>
       </main>
       <section id="contact" className={styles.contact}> 

@@ -102,19 +102,30 @@
   animation-delay: 1.8s;
 }
 .welcomeSection{
-  height: 70vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   background: #211A1E;
 }
-.about{
-  text-align: center;
-}
 .about h1{
+  text-align: center;
   padding-bottom: 2rem;
 }
+.about h2{
+  text-align: start;
+  padding-bottom: 2rem;
+}
+.navButtons{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bold;
+}
+
 .projects{
   text-align: center;
   background: #211A1E;

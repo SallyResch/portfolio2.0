@@ -14,8 +14,8 @@ export default function Home() {
             <h1>Sally Resch</h1>
             <h2>a software developer<br/> at your service</h2>
               <div className={styles.navButtons}>
-              <Link className={styles.link} href="/projects">View my work</Link>
-              <Link className={styles.link} href="/contact">Get in touch</Link>
+              <Link className={styles.startlink} href="/projects">View my work</Link>
+              <Link className={styles.startlink} href="/contact">Get in touch</Link>
               </div>
           </div>
 

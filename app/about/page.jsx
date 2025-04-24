@@ -35,25 +35,25 @@ export default function about() {
         <h2>Experience</h2>
         <div className={styles.experiencePart}>
           <div>
-          <h3>Backend Developer Intership</h3>
+          <h3>Backend Developer Internship</h3>
           <p>Company name. | 2024 october - 2024 december</p>
           </div>
         </div>
         <div className={styles.experiencePart}>
           <div>
-          <h3>Backend Developer Intership</h3>
+          <h3>Backend Developer Internship</h3>
           <p>Company name. | 2024 october - 2024 december</p>
           </div>
         </div>
         <div className={styles.experiencePart}>
           <div>
-          <h3>Backend Developer Intership</h3>
+          <h3>Backend Developer Internship</h3>
           <p>Company name. | 2024 october - 2024 december</p>
           </div>
         </div>
         <div className={styles.experiencePart}>
           <div>
-          <h3>Backend Developer Intership</h3>
+          <h3>Backend Developer Internship</h3>
           <p>Company name. | 2024 october - 2024 december</p>
           </div>
         </div>
@@ -71,7 +71,7 @@ export default function about() {
         <h2>Certifications</h2>
         <div className={styles.certificationsPart}>
           <div>
-          <h3>Backend Developer Intership</h3>
+          <h3>Backend Developer Internship</h3>
           <p>Company name. | 2024 october - 2024 december</p>
           </div>
         </div>

@@ -58,6 +58,25 @@ export default function about() {
           </div>
         </div>
       </section>
+      <section className={styles.educationContainer}>
+        <h2>Education</h2>
+        <div className={styles.educationPart}>
+          <div>
+          <h3>Java </h3>
+          <p>Company name. | 2024 october - 2024 december</p>
+          </div>
+        </div>
+      </section>
+      <section className={styles.certificationsContainer}>
+        <h2>Certifications</h2>
+        <div className={styles.certificationPart}>
+          <div>
+          <h3>Backend Developer Intership</h3>
+          <p>Company name. | 2024 october - 2024 december</p>
+          </div>
+        </div>
+        
+      </section>
     </div>
   )
 }

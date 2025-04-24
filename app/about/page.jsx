@@ -39,6 +39,24 @@ export default function about() {
           <p>Company name. | 2024 october - 2024 december</p>
           </div>
         </div>
+        <div className={styles.experiencePart}>
+          <div>
+          <h3>Backend Developer Intership</h3>
+          <p>Company name. | 2024 october - 2024 december</p>
+          </div>
+        </div>
+        <div className={styles.experiencePart}>
+          <div>
+          <h3>Backend Developer Intership</h3>
+          <p>Company name. | 2024 october - 2024 december</p>
+          </div>
+        </div>
+        <div className={styles.experiencePart}>
+          <div>
+          <h3>Backend Developer Intership</h3>
+          <p>Company name. | 2024 october - 2024 december</p>
+          </div>
+        </div>
       </section>
     </div>
   )

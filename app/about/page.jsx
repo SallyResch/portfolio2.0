@@ -69,7 +69,7 @@ export default function about() {
       </section>
       <section className={styles.certificationsContainer}>
         <h2>Certifications</h2>
-        <div className={styles.certificationPart}>
+        <div className={styles.certificationsPart}>
           <div>
           <h3>Backend Developer Intership</h3>
           <p>Company name. | 2024 october - 2024 december</p>

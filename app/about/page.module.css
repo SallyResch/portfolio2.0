@@ -15,7 +15,9 @@
 }
 .experienceContainer, .educationContainer, .certificationsContainer{
     display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+    flex-direction: column;
     padding-top: 2rem;
+}
+.experiencePart, .educationPart, .certificationsPart{
+    padding: 8px 0 8px 0;
 }

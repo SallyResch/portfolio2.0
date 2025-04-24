@@ -7,3 +7,9 @@
 .text{
     padding-bottom: 1rem;
 }
+.skillsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 1rem;
+}

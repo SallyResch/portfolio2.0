@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from "./page.module.css"
+import Image from 'next/image'
+import altPicture from "../../public/cuteslothworker.png"
 export default function about() {
   return (
     <div className={styles.container}>
@@ -22,7 +24,12 @@ export default function about() {
           <div>C#</div>
           <div>Java</div>
           <div>Postman</div>
+          <div>Git</div>
+          <div>Figma</div>
         </div>
+      </section>
+      <section>
+        <Image src={altPicture} width={260} height={260} alt='alternative bild'/>
       </section>
     </div>
   )

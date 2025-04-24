@@ -31,6 +31,15 @@ export default function about() {
       <section>
         <Image src={altPicture} width={260} height={260} alt='alternative bild'/>
       </section>
+      <section className={styles.experienceContainer}>
+        <h2>Experience</h2>
+        <div className={styles.experiencePart}>
+          <div>
+          <h3>Backend Developer Intership</h3>
+          <p>Company name. | 2024 october - 2024 december</p>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }

@@ -26,6 +26,9 @@ export default function about() {
           <div>Postman</div>
           <div>Git</div>
           <div>Figma</div>
+          <div>Vs Code</div>
+          <div>Visual Studio</div>
+          <div>PostgreSQL</div>
         </div>
       </section>
       <section>

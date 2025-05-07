@@ -3,6 +3,7 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Navbar from "@/components/Navbar/Navbar";
 import {Quicksand} from "next/font/google";
+import Footer from "@/components/Footer/Footer";
 
 export const metadata = {
   title: "Portfolio Sally",
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
         <main>
           <Navbar/>
           {children}
+          <Footer/>
         </main>
         <Analytics />
         <SpeedInsights />

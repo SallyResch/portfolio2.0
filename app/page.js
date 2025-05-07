@@ -1,8 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import gitImage from "../public/github.png";
-import linkedImage from "../public/linkedin.png";
-import emailImage from "../public/email.png";
+
 import Link from "next/link";
 
 export default function Home() {
@@ -18,28 +16,9 @@ export default function Home() {
               <Link className={styles.startlink} href="/contact">Get in touch</Link>
               </div>
           </div>
-
         </section>
       </main>
-      <section id="contact" className={styles.contact}> 
-          <h3>Lets do projects together</h3>
-          <p>Contact Me @:</p>
-          <div className={styles.contactLinks}>
-            <a className={styles.profileLink} href="https://se.linkedin.com/in/sally-resch" target="_blank" rel="noopener noreferrer">
-                <Image className={styles.linkImage} src={linkedImage} alt="LinkedInIcon" width={50} height={50} />
-                <p>LinkedIn</p>
-            </a>
-            <a className={styles.profileLink} href="mailto:sallyresch27@gmail.com">
-                <Image className={styles.linkImage} src={emailImage} alt="mailIcon" width={50} height={50} />
-                <p>Mail</p>
-            </a>
-            <a className={styles.profileLink} href="https://github.com/SallyResch" target="_blank" rel="noopener noreferrer">
-                <Image className={styles.linkImage} src={gitImage} width={50} height={50} alt="githubIcon" />
-                <p>GitHub</p>
-            </a>
-          </div>
-          <p>© 2025 Sally Resch</p>
-        </section>
+      
     </div>
   );
 }

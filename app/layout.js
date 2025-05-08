@@ -18,6 +18,9 @@ const quicksand = Quicksand({
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <script src="https://kit.fontawesome.com/d5b1bff668.js" crossorigin="anonymous"></script>
+      </head>
       <body className={quicksand.className}>
         <main>
           <Navbar/>

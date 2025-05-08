@@ -2,7 +2,6 @@ import React from 'react'
 import styles from "./page.module.css"
 import ProfileImageCarousel from "@/components/ProfileImageCarousel/ProfileImageCarousel";
 
-
 export default function about() {
   return (
     <div className={styles.container}>
@@ -76,7 +75,10 @@ export default function about() {
         </div>
       </section>
       <section className={styles.certificationsContainer}>
-        <h2>Certifications</h2>
+        <div className={styles.certificationsHeader}>        
+          <h2>Certifications</h2>
+          <i class="fa-solid fa-ribbon fa-beat-fade fa-2xl"></i>
+        </div>
         <div className={styles.certificationsPart}>
           <div>
           <h3>Backend Developer Internship</h3>

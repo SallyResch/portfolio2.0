@@ -1,28 +1,27 @@
 .container{
-    margin: 1.5rem;
-}
-.aboutMeContainer{
-    display: flex;
-    flex-direction: row;
-    padding-top: 2rem;
+padding: 2rem;
 }
 .heading{
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 .text{
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
-.skillsContainer{
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.skillsContainer {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
-    padding-top: 1rem;
-}
-.experienceContainer, .educationContainer, .certificationsContainer{
-    display: flex;
-    flex-direction: column;
-    padding-top: 2rem;
-}
-.experiencePart, .educationPart, .certificationsPart{
-    padding: 8px 0 8px 0;
-}
+    gap: 0.5rem;
+  }
+  .skill {
+    background-color: rgb(190, 190, 190);
+    padding: 0.5rem;
+    border-radius: 5px;
+    display: inline-block; /* viktigt! */
+    width: fit-content;     /* alternativt för säkerhets skull */
+  }

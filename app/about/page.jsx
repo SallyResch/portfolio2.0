@@ -15,24 +15,27 @@ export default function about() {
             <p className={styles.text}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, veritatis? Ipsa voluptatum fuga nihil blanditiis ipsam, illo, quae suscipit cumque quas quo non animi impedit omnis alias iusto magni dolore?</p>
           </div>
         </div>
+        <div className={styles.imageContainer}>
         <ProfileImageCarousel />
+        </div>
+
       </section>
       <section>
         <h2>Skills & Technologies</h2>
         <div className={styles.skillsContainer}>
-          <div>Html</div>
-          <div>CSS</div>
-          <div>React</div>
-          <div>Next.js</div>
-          <div>.NET</div>
-          <div>C#</div>
-          <div>Java</div>
-          <div>Postman</div>
-          <div>Git</div>
-          <div>Figma</div>
-          <div>Vs Code</div>
-          <div>Visual Studio</div>
-          <div>PostgreSQL</div>
+          <div className={styles.skill}>Html</div>
+          <div className={styles.skill}>CSS</div>
+          <div className={styles.skill}>React</div>
+          <div className={styles.skill}>Next.js</div>
+          <div className={styles.skill}>.NET</div>
+          <div className={styles.skill}>C#</div>
+          <div className={styles.skill}>Java</div>
+          <div className={styles.skill}>Postman</div>
+          <div className={styles.skill}>Git</div>
+          <div className={styles.skill}>Figma</div>
+          <div className={styles.skill}>Vs Code</div>
+          <div className={styles.skill}>Visual Studio</div>
+          <div className={styles.skill}>PostgreSQL</div>
         </div>
       </section>
 

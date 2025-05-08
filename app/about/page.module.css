@@ -1,12 +1,18 @@
 .container{
     margin: 1.5rem;
 }
+.aboutMeContainer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+}
 .heading{
     padding-bottom: 1rem;
 }
 .text{
     padding-bottom: 1rem;
 }
+
 .skillsContainer{
     display: flex;
     flex-wrap: wrap;

@@ -39,7 +39,11 @@ export default function about() {
       </section>
 
       <section className={styles.experienceContainer}>
-        <h2 className={styles.heading}>Experience</h2>
+        <div className={styles.certificationsHeader}>
+        <h2>Experience</h2>
+        <i class="fa-solid fa-laptop-code fa-beat-fade fa-2xl"></i>
+        </div>
+
         <div className={styles.experiencePart}>
           <div>
           <h3>Backend Developer Internship</h3>
@@ -66,7 +70,11 @@ export default function about() {
         </div>
       </section>
       <section className={styles.educationContainer}>
-        <h2 className={styles.heading}>Education</h2>
+        <div className={styles.certificationsHeader}>
+        <h2>Education</h2>
+        <i class="fa-solid fa-graduation-cap fa-beat-fade fa-2xl"></i>
+        </div>
+
         <div className={styles.educationPart}>
           <div>
           <h3>Java </h3>

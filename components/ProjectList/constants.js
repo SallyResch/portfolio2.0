@@ -16,7 +16,7 @@ export const projectsData = [
     codeLanguage:"React",
     framework: "Next.js",
     url: "https://reactproject-2noafu1o5-annaaste.vercel.app/",
-    description: "A project build with Scrum methods together with a team och developers and UX-designers. The project is a web-based application that allows users to find substitutes for different ingredients. The project is designed to be user-friendly and accessible."
+    description: "A project built with Scrum methods together with a team och developers and UX-designers. The project is a web-based application that allows users to find substitutes for different ingredients. The project is designed to be user-friendly and accessible."
   },
   { projecttype: "selfmade",
     name: "AccessibilityQuiz", 

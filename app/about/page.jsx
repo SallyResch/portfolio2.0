@@ -21,7 +21,7 @@ export default function about() {
 
       </section>
       <section>
-        <h2>Skills & Technologies</h2>
+        <h2 className={styles.heading}>Skills & Technologies</h2>
         <div className={styles.skillsContainer}>
           <div className={styles.skill}>Html</div>
           <div className={styles.skill}>CSS</div>
@@ -40,7 +40,7 @@ export default function about() {
       </section>
 
       <section className={styles.experienceContainer}>
-        <h2>Experience</h2>
+        <h2 className={styles.heading}>Experience</h2>
         <div className={styles.experiencePart}>
           <div>
           <h3>Backend Developer Internship</h3>
@@ -67,7 +67,7 @@ export default function about() {
         </div>
       </section>
       <section className={styles.educationContainer}>
-        <h2>Education</h2>
+        <h2 className={styles.heading}>Education</h2>
         <div className={styles.educationPart}>
           <div>
           <h3>Java </h3>

@@ -17,11 +17,30 @@ padding: 2rem;
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-  }
-  .skill {
+    margin-bottom: 2rem;
+}
+.skill {
     background-color: rgb(190, 190, 190);
     padding: 0.5rem;
     border-radius: 5px;
     display: inline-block; /* viktigt! */
     width: fit-content;     /* alternativt för säkerhets skull */
-  }
+}
+.experienceContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.educationContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.certificationsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}

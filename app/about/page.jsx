@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./page.module.css"
 import ProfileImageCarousel from "@/components/ProfileImageCarousel/ProfileImageCarousel";
-
+import Link from 'next/link';
 export default function about() {
   return (
     <div className={styles.container}>
@@ -41,7 +41,7 @@ export default function about() {
       <section className={styles.experienceContainer}>
         <div className={styles.certificationsHeader}>
         <h2>Experience</h2>
-        <i class="fa-solid fa-laptop-code fa-beat-fade fa-2xl"></i>
+        <i className="fa-solid fa-laptop-code fa-beat-fade fa-2xl"></i>
         </div>
 
         <div className={styles.experiencePart}>
@@ -72,7 +72,7 @@ export default function about() {
       <section className={styles.educationContainer}>
         <div className={styles.certificationsHeader}>
         <h2>Education</h2>
-        <i class="fa-solid fa-graduation-cap fa-beat-fade fa-2xl"></i>
+        <i className="fa-solid fa-graduation-cap fa-beat-fade fa-2xl"></i>
         </div>
 
         <div className={styles.educationPart}>
@@ -85,12 +85,23 @@ export default function about() {
       <section className={styles.certificationsContainer}>
         <div className={styles.certificationsHeader}>        
           <h2>Certifications</h2>
-          <i class="fa-solid fa-ribbon fa-beat-fade fa-2xl"></i>
+          <i className="fa-solid fa-ribbon fa-beat-fade fa-2xl"></i>
         </div>
         <div className={styles.certificationsPart}>
-          <div>
-          <h3>Backend Developer Internship</h3>
-          <p>Company name. | 2024 october - 2024 december</p>
+          <div className={styles.certification}>
+          <h3>System Developer .NET</h3>
+          <p>School: Lexicon | 2024 feb - 2024 aug</p>
+          <p>Link to <Link className={styles.certLink} href="https://true.lexicon.se/diploma-lexicon-sally-resch-193127-3804/?zone=truecrt&modal=1&lang=se">Certificate</Link></p>
+          </div>
+          <div className={styles.certification}>
+          <h3>Java Developer</h3>
+          <p>School: Stockholms Technical Institute | 2021 aug - 2023 okt</p>
+          <p>Link to <Link className={styles.certLink} href="https://true.sti.se/examensbevis-sally-resch-119694-1863/?zone=truecrt&modal=1&lang=se">Certificate</Link></p>
+          </div>
+          <div className={styles.certification}>
+          <h3>Responsive Web Design</h3>
+          <p>School: FreeCodeCamp | 2024 dec - 2025 feb</p>
+          <p>Link to <Link className={styles.certLink} href="https://true.sti.se/examensbevis-sally-resch-119694-1863/?zone=truecrt&modal=1&lang=se">Certificate</Link></p>
           </div>
         </div>
       </section>

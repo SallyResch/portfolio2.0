@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: orange;
-    color: white;
+    color: black;
+    border-bottom: var(--lightYellow) 2px solid;
   }
 .logo{
     border: 2px solid white;
@@ -13,7 +13,6 @@
 .navLinks{
     border: none;
     background: none;
-    color: white;
     font-weight: 600;
 }
 .navLinks:hover{

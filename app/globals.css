@@ -1,6 +1,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --lightblue: #A8D5E2;
+  --mattYellow:#F9A620;
+  --lightYellow:#FFD449;
+
+
 
   /* Add responsive font size variables */
   --font-size-small: 0.875rem;

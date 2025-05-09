@@ -23,6 +23,9 @@ padding: 2rem;
     padding: 0.5rem;
     display: inline-block; /* viktigt! */
     width: fit-content;     /* alternativt för säkerhets skull */
+    background-color: var(--lightblue);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px var(--darkblue);
 }
 .experienceContainer {
     display: flex;

@@ -13,15 +13,14 @@ export default function Footer() {
             <div className={styles.contactLinks}>
             <a className={styles.profileLink} href="https://se.linkedin.com/in/sally-resch" target="_blank" rel="noopener noreferrer">
                 <Image className={styles.linkImage} src={linkedImage} alt="LinkedInIcon" width={50} height={50} />
-                <p>LinkedIn</p>
+        
             </a>
             <a className={styles.profileLink} href="mailto:sallyresch27@gmail.com">
                 <Image className={styles.linkImage} src={emailImage} alt="mailIcon" width={50} height={50} />
-                <p>Mail</p>
+
             </a>
             <a className={styles.profileLink} href="https://github.com/SallyResch" target="_blank" rel="noopener noreferrer">
                 <Image className={styles.linkImage} src={gitImage} width={50} height={50} alt="githubIcon" />
-                <p>GitHub</p>
             </a>
             </div>
             <p>© 2025 Sally Resch</p>

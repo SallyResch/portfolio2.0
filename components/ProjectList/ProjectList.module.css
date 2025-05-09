@@ -20,8 +20,8 @@
   flex-direction: column;
   text-decoration: none;
   color: inherit;
-  background-color: #f9f9f9;
-  border: 2px solid #e0e0e0;
+  background-color: var(--lightYellow);
+  border: 2px solid var(--mattYellow);
   border-radius: 12px;
   padding: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);

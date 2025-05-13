@@ -17,11 +17,10 @@ export default function about() {
         <div className={styles.imageContainer}>
         <ProfileImageCarousel />
         </div>
-
       </section>
-      <section>
+      <section className={styles.skillsContainer}>
         <h2 className={styles.heading}>Skills & Technologies</h2>
-        <div className={styles.skillsContainer}>
+        <div>
           <div className={styles.skill}>Html</div>
           <div className={styles.skill}>CSS</div>
           <div className={styles.skill}>React</div>
@@ -46,26 +45,20 @@ export default function about() {
 
         <div className={styles.experiencePart}>
           <div>
-          <h3>Backend Developer Internship</h3>
-          <p>Company name. | 2024 october - 2024 december</p>
+          <h3>Backend Developer Internship | .NET</h3>
+          <p>Elevateyourself AB | 2024 oct - 2024 dec</p>
           </div>
         </div>
         <div className={styles.experiencePart}>
           <div>
-          <h3>Backend Developer Internship</h3>
-          <p>Company name. | 2024 october - 2024 december</p>
+          <h3>Website structure - Wordpress</h3>
+          <p>Kulturantenn AB | 2024 oct - 2024 dec</p>
           </div>
         </div>
         <div className={styles.experiencePart}>
           <div>
-          <h3>Backend Developer Internship</h3>
-          <p>Company name. | 2024 october - 2024 december</p>
-          </div>
-        </div>
-        <div className={styles.experiencePart}>
-          <div>
-          <h3>Backend Developer Internship</h3>
-          <p>Company name. | 2024 october - 2024 december</p>
+          <h3>Frontend Developer Internship | Next.js - React</h3>
+          <p>Elevateyourself AB | 2024 feb - 2024 may</p>
           </div>
         </div>
       </section>
@@ -74,11 +67,18 @@ export default function about() {
         <h2>Education</h2>
         <i className="fa-solid fa-graduation-cap fa-beat-fade fa-2xl"></i>
         </div>
-
         <div className={styles.educationPart}>
           <div>
-          <h3>Java </h3>
-          <p>Company name. | 2024 october - 2024 december</p>
+            <h3>System Developer .NET</h3>
+            <p>Lexicon IT profs | 2024 feb - 2024 dec</p>
+          </div>
+          <div>
+            <h3>Java Developer</h3>
+            <p>Stockholms Tekniska Institut. | 2021 aug - 2023 aug</p>
+          </div>
+          <div>
+            <h3>Responsive Web Design</h3>
+            <p>FreeCodeCamp | 2024 dec - 2025 feb</p>
           </div>
         </div>
       </section>

@@ -9,9 +9,10 @@ export default function about() {
         <div>
         <h1 className={styles.heading}>About Me</h1>
           <div className={styles.textContainer}>
-            <p className={styles.text}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, labore, dicta velit, quae recusandae amet cumque quisquam itaque provident aspernatur optio atque cupiditate neque explicabo nostrum ab unde necessitatibus placeat!</p>
-            <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore iste ad aliquid, aut harum, molestiae, ducimus velit repellat aspernatur libero ea? Aperiam ipsum autem distinctio ad ullam, iusto unde deserunt.</p>
-            <p className={styles.text}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, veritatis? Ipsa voluptatum fuga nihil blanditiis ipsam, illo, quae suscipit cumque quas quo non animi impedit omnis alias iusto magni dolore?</p>
+            <p className={styles.text}>Introduction</p>
+            <p className={styles.text}>Motivation and interest</p>
+            <p className={styles.text}>Relevant Experience</p>
+            <p className={styles.text}>Ending</p>
           </div>
         </div>
         <div className={styles.imageContainer}>

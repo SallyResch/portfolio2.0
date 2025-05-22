@@ -1,6 +1,10 @@
 import React from 'react'
 import styles from "./page.module.css"
 import ProfileImageCarousel from "@/components/ProfileImageCarousel/ProfileImageCarousel";
+import Image from 'next/image';
+import certified from "../../public/Check-Badge--Streamline-Ultimate.svg";
+import document from "../../public/Bookmarks-Document--Streamline-Ultimate.svg";
+import experienceImage from "../../public/Desktop-Computer-Pc--Streamline-Ultimate.svg";
 import Link from 'next/link';
 export default function about() {
   return (
@@ -41,7 +45,7 @@ export default function about() {
       <section className={styles.experienceContainer}>
         <div className={styles.certificationsHeader}>
         <h2>Experience</h2>
-        <i className="fa-solid fa-laptop-code fa-beat-fade fa-2xl"></i>
+        <Image className={styles.certified} src={experienceImage} alt="certified" width={50} height={50}/>
         </div>
 
         <div className={styles.experiencePart}>
@@ -66,7 +70,7 @@ export default function about() {
       <section className={styles.educationContainer}>
         <div className={styles.certificationsHeader}>
         <h2>Education</h2>
-        <i className="fa-solid fa-graduation-cap fa-beat-fade fa-2xl"></i>
+        <Image className={styles.certified} src={document} alt="certified" width={50} height={50}/>
         </div>
         <div className={styles.educationPart}>
           <div>
@@ -86,7 +90,7 @@ export default function about() {
       <section className={styles.certificationsContainer}>
         <div className={styles.certificationsHeader}>        
           <h2>Certifications</h2>
-          <i className="fa-solid fa-ribbon fa-beat-fade fa-2xl"></i>
+          <Image className={styles.certified} src={certified} alt="certified" width={50} height={50}/>
         </div>
         <div className={styles.certificationsPart}>
           <div className={styles.certification}>

@@ -8,7 +8,12 @@
   align-items: center;
   flex-direction: row;
 }
-
+.about{
+  background-color: var(--lightYellow);
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: orangered 0px 0px 5px 0px;
+}
 .about h1 {
   text-align: center;
   padding-bottom: 2rem;

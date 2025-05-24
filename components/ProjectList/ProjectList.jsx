@@ -21,18 +21,20 @@ const ProjectList = ({ title, projects }) => {
                 scrolling="no"
               ></iframe>
             )}
+            
             <div className={styles.cardContent}>
               <h4 className={styles.projectName}>{project.name}</h4>
-              {project.description && (
-                <p className={styles.description}>{project.description}</p>
-              )}
-              <div className={styles.meta}>
+                <div className={styles.meta}>
                 <span className={styles.badge}>{project.projecttype}</span>
                 <span>{project.codeLanguage}</span>
                 {project.framework && (
                   <span className={styles.framework}>• {project.framework}</span>
                 )}
               </div>
+              {project.description && (
+                <p className={styles.description}>{project.description}</p>
+              )}
+
             </div>
           </a>
         ))}

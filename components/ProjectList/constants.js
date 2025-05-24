@@ -1,8 +1,9 @@
 export const projectsData = [
   { projecttype: "work", 
     name: "HEYEY", 
-    codeLanguage:"React",
-    framework: "Next.js",
+    codeLanguage:["React"," C#"],
+    framework:["Next.js", " ASP .NET Core"],
+    description: "",
     url: "https://www.heyey.se"
   },
   { projecttype: "work", 

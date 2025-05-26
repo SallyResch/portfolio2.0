@@ -79,9 +79,11 @@
   font-weight: 500;
   text-transform: uppercase;
 }
-
-.framework {
-  color: #888;
+.tags{
+  font-weight: bold;
+  color: black;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Responsivt grid */

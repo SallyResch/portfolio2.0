@@ -26,10 +26,12 @@ const ProjectList = ({ title, projects }) => {
               <h4 className={styles.projectName}>{project.name}</h4>
                 <div className={styles.meta}>
                 <span className={styles.badge}>{project.projecttype}</span>
-                <span>{project.codeLanguage}</span>
+                <div className={styles.tags}>
+                  <span className={styles.codeLanguages}>Code Languages: {project.codeLanguage}</span>
                 {project.framework && (
-                  <span className={styles.framework}>• {project.framework}</span>
+                  <span className={styles.framework}>Framework: {project.framework}</span>
                 )}
+                </div>
               </div>
               {project.description && (
                 <p className={styles.description}>{project.description}</p>

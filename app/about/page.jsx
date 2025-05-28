@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./page.module.css"
-import ProfileImageCarousel from "@/components/ProfileImageCarousel/ProfileImageCarousel";
+
 import Image from 'next/image';
 import certified from "../../public/Check-Badge--Streamline-Ultimate.svg";
 import document from "../../public/Bookmarks-Document--Streamline-Ultimate.svg";
@@ -20,7 +20,6 @@ export default function about() {
           </div>
         </div>
         <div className={styles.imageContainer}>
-        <ProfileImageCarousel />
         </div>
       </section>
       <section className={styles.skillsContainer}>

@@ -4,6 +4,11 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import Navbar from "@/components/Navbar/Navbar";
 import {Quicksand} from "next/font/google";
 import Footer from "@/components/Footer/Footer";
+import { ErrorBoundary } from "next/dist/client/components/error-boundary";
+import Error from "./error";
+import NotFound from "./not-found";
+import { Suspense } from "react";
+import Loading from "./loading";
 
 export const metadata = {
   title: "Developer Portfolio",
@@ -22,11 +27,17 @@ export default function RootLayout({ children }) {
       <script src="https://kit.fontawesome.com/d5b1bff668.js" crossOrigin="anonymous"></script>
       </head>
       <body className={quicksand.className}>
+        <ErrorBoundary fallback={<Error/>}>
+        <Suspense fallback={<Loading/>}>
+        <ErrorBoundary fallback={<NotFound/>}>
         <main>
           <Navbar/>
           {children}
           <Footer/>
         </main>
+        </ErrorBoundary>
+        </Suspense>
+        </ErrorBoundary>
         <Analytics />
         <SpeedInsights />
       </body>

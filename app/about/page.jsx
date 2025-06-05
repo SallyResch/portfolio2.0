@@ -5,7 +5,8 @@ import sloth from "../../public/cuteslothworker.png"
 export default function about() {
   return (
     <div className={styles.container}>
-      <section className={styles.aboutMeContainer}>
+    <Image src={sloth} width={320}></Image>
+      {/*<section className={styles.aboutMeContainer}>
         <div>
         <h1 className={styles.heading}>About Me</h1>
           <div className={styles.textContainer}>
@@ -105,6 +106,7 @@ export default function about() {
           </div>
         </div>
       </section>
+      */}
     </div>
   )
 }

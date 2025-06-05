@@ -1,11 +1,7 @@
 import React from 'react'
 import styles from "./page.module.css"
-
-import Image from 'next/image';
-import certified from "../../public/Check-Badge--Streamline-Ultimate.svg";
-import document from "../../public/Bookmarks-Document--Streamline-Ultimate.svg";
-import experienceImage from "../../public/Desktop-Computer-Pc--Streamline-Ultimate.svg";
-import Link from 'next/link';
+import Image from 'next/image'
+import sloth from "../../public/cuteslothworker.png"
 export default function about() {
   return (
     <div className={styles.container}>
@@ -13,13 +9,13 @@ export default function about() {
         <div>
         <h1 className={styles.heading}>About Me</h1>
           <div className={styles.textContainer}>
-            <p className={styles.text}>Introduction</p>
-            <p className={styles.text}>Motivation and interest</p>
-            <p className={styles.text}>Relevant Experience</p>
-            <p className={styles.text}>Ending</p>
+            <p className={styles.text}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, labore, dicta velit, quae recusandae amet cumque quisquam itaque provident aspernatur optio atque cupiditate neque explicabo nostrum ab unde necessitatibus placeat!</p>
+            <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore iste ad aliquid, aut harum, molestiae, ducimus velit repellat aspernatur libero ea? Aperiam ipsum autem distinctio ad ullam, iusto unde deserunt.</p>
+            <p className={styles.text}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, veritatis? Ipsa voluptatum fuga nihil blanditiis ipsam, illo, quae suscipit cumque quas quo non animi impedit omnis alias iusto magni dolore?</p>
           </div>
         </div>
         <div className={styles.imageContainer}>
+        <ProfileImageCarousel />
         </div>
       </section>
       <section className={styles.skillsContainer}>
@@ -44,7 +40,7 @@ export default function about() {
       <section className={styles.experienceContainer}>
         <div className={styles.certificationsHeader}>
         <h2>Experience</h2>
-        <Image className={styles.certified} src={experienceImage} alt="certified" width={50} height={50}/>
+        <i className="fa-solid fa-laptop-code fa-beat-fade fa-2xl"></i>
         </div>
 
         <div className={styles.experiencePart}>
@@ -69,7 +65,7 @@ export default function about() {
       <section className={styles.educationContainer}>
         <div className={styles.certificationsHeader}>
         <h2>Education</h2>
-        <Image className={styles.certified} src={document} alt="certified" width={50} height={50}/>
+        <i className="fa-solid fa-graduation-cap fa-beat-fade fa-2xl"></i>
         </div>
         <div className={styles.educationPart}>
           <div>
@@ -89,7 +85,7 @@ export default function about() {
       <section className={styles.certificationsContainer}>
         <div className={styles.certificationsHeader}>        
           <h2>Certifications</h2>
-          <Image className={styles.certified} src={certified} alt="certified" width={50} height={50}/>
+          <i className="fa-solid fa-ribbon fa-beat-fade fa-2xl"></i>
         </div>
         <div className={styles.certificationsPart}>
           <div className={styles.certification}>

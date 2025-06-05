@@ -5,7 +5,7 @@ import sloth from "../../public/cuteslothworker.png"
 export default function about() {
   return (
     <div className={styles.container}>
-    <Image src={sloth} width={320}></Image>
+    <Image src={sloth} width={320} alt='Under construction'></Image>
       {/*<section className={styles.aboutMeContainer}>
         <div>
         <h1 className={styles.heading}>About Me</h1>

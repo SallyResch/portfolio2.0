@@ -30,9 +30,11 @@ export default function projects() {
   return (
     <main>
       <div className={styles.header}>
-      <h1>Projects</h1>
-      <h2>Explore my work</h2>
-      <h3>A mix of work- & self-developed projects</h3>
+        <h1>Projects</h1>
+      </div>
+      <div className={styles.intro}>
+        <h2>Explore my work</h2>
+        <p>work- & self-developed projects</p>
       </div>
       <ProjectList projects={projectsData} />
     </main>

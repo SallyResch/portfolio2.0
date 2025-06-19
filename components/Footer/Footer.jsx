@@ -1,9 +1,9 @@
 import React from 'react'
 import styles from './Footer.module.css'
 import Image from "next/image";
-import gitImage from "../../public/github.png";
-import linkedImage from "../../public/linkedin.png";
-import emailImage from "../../public/email.png";
+import gitImage from "@/public/images/socialmedia/github.png";
+import linkedImage from "@/public/images/socialmedia/linkedin.png";
+import emailImage from "@/public/images/socialmedia/email.png";
 export default function Footer() {
   return (
     <div>

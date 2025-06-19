@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./page.module.css"
 import Image from 'next/image'
-import sloth from "../../public/images/cuteslothworker.png"
+import sloth from "@/public/images/cuteslothworker.png";
 export default function about() {
   return (
     <div className={styles.container}>

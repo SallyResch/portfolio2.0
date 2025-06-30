@@ -2,8 +2,15 @@
   --background: #ffffff;
   --foreground: #171717;
   --lightblue: #A8D5E2;
-  --mattYellow:#F9A620;
-  --lightYellow:#FFD449;
+  --mattYellow: #F9A620;
+  --lightYellow: #FFD449;
+
+  /* New custom colors */
+  --coralRed: #EE6055;
+  --mintGreen: #60D394;
+  --lightGreen: #AAF683;
+  --pastelYellow: #FFD97D;
+  --peach: #FF9B85;
 
 
 

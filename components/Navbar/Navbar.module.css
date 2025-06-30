@@ -14,11 +14,14 @@
     border: none;
     background: none;
     font-weight: 600;
+    position: relative;
+}
+.active {
+  /* Underline effect */
+  border-bottom: 3px solid orange;
 }
 .navLinks:hover{
-    background: whitesmoke;
     color: orange;
-    border-radius: 10px;
 }
 .menu{
     display: flex;
